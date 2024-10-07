@@ -13,3 +13,13 @@ If the player has a modifier card in their hand, they can discard it to draw a n
 Also, the player can discard a special card to have it replaced by another special card that they can purchase in the store.
 
 Upon reaching the required points, they access a store where they can use their points to enhance their plays and acquire special cards that provide unique abilities or modify the game conditions.
+
+Starting Values
+
+* Hand Size: 8
+* Hands: 5
+* Discard: 5
+* Money: 0
+* Round: 6
+* Special Cards Slot: 5
+* Default Deck:A traditional deck of 52 cards + 2 regular jokers

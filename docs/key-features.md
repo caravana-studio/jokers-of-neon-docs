@@ -15,3 +15,5 @@ sidebar_position: 2
 * Collaborating with professional designers, we are committed to delivering a high-quality interface that enhances gameplay.
 
 * Regular Updates and Special Events: Special themed events and regular content updates keep the game fresh and exciting, providing new challenges and opportunities for players to explore.
+
+![](./img/cartas.png)

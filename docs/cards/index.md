@@ -19,13 +19,7 @@ Players start with a traditional deck of 52 cards with cards of 13 ranks and 4 s
 
 ## Joker
 ​
-APPEARANCE
-NAME
-DESCRIPTION
-​​
-Joker
-Adds 100 points and 1 multi
-​​
-Neon Joker
-Adds 500 points and 3 multi
-​
+| NAME             | APPEARANCE | DESCRIPTION                                           | 
+|------------------|------------|-------------------------------------------------------|
+|  Joker           |![](./img/joker.png)            | Adds 100 points and 1 multi       |
+|  Neon Joker      |![](./img/neon_joker.png)       | Adds 500 points and 3 multi       |
