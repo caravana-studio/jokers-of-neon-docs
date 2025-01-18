@@ -1,25 +1,44 @@
 # Game Mechanics
 
-Players must reach a point target that increases with each round won. To achieve this point goal, we must make plays, in this case, poker plays.
+# Game Mechanics  
 
-Each game starts with five hands of cards and five discards per round. 
+Players must reach a point target that increases with each round won by making poker hands.  
 
-The player must select cards from their hand to play poker hands and score. A given number of discards are available to assist with creating better hands. 
+## Gameplay Overview  
+- Each game begins with **five hands of cards** and **five discards** per round.  
+- Players select cards from their hand to form poker hands and score points.  
+- Discards are available to improve hands by exchanging unwanted cards.  
 
-If a player fails to meet the point target and runs out of hands to play, the game ends . Their score is recorded on a leaderboard.
+## Game End Conditions  
+- The game ends if the player fails to meet the point target before running out of hands.  
+- Final scores are recorded on a leaderboard.  
 
-If the player has a modifier card in their hand, they can discard it to draw a new card. This discard is not counted as part of the discards. 
+## Effect items
+- **Modifier Cards**:
+  - Modifier cards will go to the deck with the rest of traditional cards.
+  - Modifier cards, once in hand, can be dragged and dropped to a preselected traditional card to apply the effect.
+  - Players can "change" a modifier card to draw a new card without loosing discards.
+- **Special Cards**:
+  - Special cards will activate immediately upon purchase, taking up a special card slot.
+  - Players can remove a special card at any time to free up a slot.
+  - To activate more special cards, players will need to unlock new special card slots in the store. (Max. is 7)
+- **Power-ups**:  
+  - Used to increase points or multi that will be added to the hand score when used.
 
-Also, the player can discard a special card to have it replaced by another special card that they can purchase in the store.
+## Rage rounds
+ - Rage rounds are special rounds where players need to overcome different challenges, represented by Rage cards.
+ - Rage cards have negative effects and are active for one round only.
+ - Starting from round 4, with an initial probability of 15%, each round the probability of facing a rage round increases. 
+ - Once a rage round appears, it restarts again at 15%.
 
-Upon reaching the required points, they access a store where they can use their points to enhance their plays and acquire special cards that provide unique abilities or modify the game conditions.
+On the other hand, the amount of rage cards increases as you go through the rounds, with a maximum of 4 rage cards.
 
-Starting Values
-
-* Hand Size: 8
-* Hands: 5
-* Discard: 5
-* Money: 0
-* Round: 6
-* Special Cards Slot: 5
-* Default Deck:A traditional deck of 52 cards + 2 regular jokers
+## Progression and Rewards  
+- Upon reaching the required points, players gain access to a store.  
+- In the store, players can use the cash won to:  
+  - Level up their plays.  
+  - Buy new special cards, modifiers, traditional cards and neon cards.
+  - Unlock slots for special cards.
+  - Buy power-ups.
+  - Buy loot boxes, with random rewards.
+  - Burn cards from the deck.

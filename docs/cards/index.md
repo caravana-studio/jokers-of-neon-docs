@@ -6,20 +6,17 @@ Players start with a traditional deck of 52 cards with cards of 13 ranks and 4 s
 ## Types of Cards:
 
 * Traditional cards: used to form classic poker plays (pair, flush, straight, etc.)
-* Modifier cards: which can be applied to traditional cards to achieve various effects. There are three types: 
-    * Add more points 
-    * Add more multi 
-    * Change suits
-* Special cards: which apply global effects that can affect specific cards or the game itself. Each game has space for adding 5 special cards. There are two types:
-    * Permanent: the only way to remove a special is through the discard
-    * Temporary: self-destruct after 3 number of level
-* Jokers: they always score, regardless of the played hand.
+* Neon cards: are variants of traditional cards that score double points and +1 multi. Also, when a play is formed only with neon cards, the play level is increased by 4, scoring more points and multi.
+* Modifier cards: which can be applied to traditional cards individually to achieve different effects, like changing suit or transforming the card into a different one.
+* Special cards: which apply global effects that can affect specific cards or the game itself. There are two types:
+    * Permanent
+    * Temporary: self-destruct after 3 rounds
+* Jokers: wildcard that will be used to complete the best possible hand.
 
-## Tradicional Cards
 
-## Joker
+## Jokers
 ​
-| NAME             | APPEARANCE | DESCRIPTION                                           | 
+| NAME             | IMAGE | DESCRIPTION                                           | 
 |------------------|------------|-------------------------------------------------------|
 |  Joker           |![](./img/joker.png)            | Adds 100 points and 1 multi       |
-|  Neon Joker      |![](./img/neon_joker.png)       | Adds 500 points and 3 multi       |
+|  Neon Joker      |![](./img/neon_joker.png)       | Adds 200 points and 2 multi       |
