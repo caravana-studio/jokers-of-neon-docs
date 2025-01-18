@@ -14,9 +14,9 @@ Rarity determines the price of the card:
 | Uncommon        | 750  |
 | Rare        | 1000  |
 
-## List of Special cards
+## List of Modifier cards
 
-| NAME             | APPEARANCE | DESCRIPTION                                           | RARITY |
+| NAME             | IMAGE | DESCRIPTION                                           | RARITY |
 |------------------|------------|-------------------------------------------------------|-------------|
 | Change to Clubs  |![](./img/effect/608.png)| The modified card will be considered as a Clubs card   | Common           |
 | Change to Diamonds |![](./img/effect/609.png)| The modified card will be considered as a Diamonds card| Common           |
