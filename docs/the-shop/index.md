@@ -1,27 +1,31 @@
 # The Shop
 
-At the end of each round, the user can use the cash earned in that round to:
-  - Level up their plays.  
-  - Buy new special cards, modifiers, traditional cards and neon cards.
-  - Unlock slots for special cards.
-  - Buy power-ups.
-  - Buy loot boxes, with random rewards.
-  - Burn cards from the deck.
+At the end of each round, players can spend the cash they've earned in The Shop. Each offers a distinct layout and item focus, see the table below for a breakdown.
+
+![608](./img/map.png)
+
+In the shop, players can:
+
+- Level up their plays to increase scoring potential.
+- Purchase cards, including special cards, modifiers, traditional cards, and neon cards.
+- Unlock slots for equipping more special cards.
+- Buy power-ups, which can be used at any time.
+- Open loot boxes that grant random cards.
+- Burn unwanted cards from the deck to streamline strategy.
+
+## Store Item Distribution
+
+| Store         | Traditional Cards            | Modifier Cards               | Burn                         | Special Cards                | Power-ups                    | Loot Boxes                   | Play Level-ups               |
+| ------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- |
+| **Deck**      | <div align="center">✅</div> | <div align="center">✅</div> | <div align="center">✅</div> | <div align="center">❌</div> | <div align="center">❌</div> | <div align="center">❌</div> | <div align="center">❌</div> |
+| **Global**    | <div align="center">❌</div> | <div align="center">❌</div> | <div align="center">❌</div> | <div align="center">✅</div> | <div align="center">✅</div> | <div align="center">❌</div> | <div align="center">❌</div> |
+| **Specials**  | <div align="center">❌</div> | <div align="center">❌</div> | <div align="center">❌</div> | <div align="center">✅</div> | <div align="center">❌</div> | <div align="center">✅</div> | <div align="center">❌</div> |
+| **Level Ups** | <div align="center">❌</div> | <div align="center">❌</div> | <div align="center">❌</div> | <div align="center">✅</div> | <div align="center">❌</div> | <div align="center">❌</div> | <div align="center">✅</div> |
+| **Modifiers** | <div align="center">❌</div> | <div align="center">✅</div> | <div align="center">❌</div> | <div align="center">❌</div> | <div align="center">❌</div> | <div align="center">✅</div> | <div align="center">❌</div> |
+| **Mix**       | <div align="center">❌</div> | <div align="center">❌</div> | <div align="center">❌</div> | <div align="center">❌</div> | <div align="center">✅</div> | <div align="center">✅</div> | <div align="center">✅</div> |
 
 The items that appear in the store are completely random. For play upgrades and common cards, all have the same chance of appearing in the store. However, for special and modifier cards, The chance of appearing depends on the rarity of the card.
 
-The following items are listed in the store:
-
-* 3 play level-ups
-* 3 special cards, which activate immediately upon purchase.
-* 3 modifier cards, which go into the deck.
-* 5 traditional cards / jokers / neon cards, which also go into the deck.
-* 2 power-ups, which go to the power-up pile and can be used at any time.
-* 2 loot-boxes, which contain random cards.
-* 1 special card slot.
-* 1 card to burn, which can be used once per store.
-* 1 reroll, which can be used once per store.
-
 ## Reroll
 
-The player will have the option to regenerate new items in the store through a reroll, which has a cost that starts at 100. The reroll can only be executed only once per store. The cost of the reroll increases each time is used.
+Players start the game with 1 reroll. Rerolls can be used to refresh the store's inventory. And after every Rage round, the player gains 2 additional rerolls.
