@@ -2,49 +2,47 @@
 
 ## Gameplay Overview
 
-Players must reach a point target that increases with each round won by making poker hands.
+The core objective of a run is simple: reach the target score for each node before you run out of hands.
 
-- Each game begins with **five hands of cards** and **five discards** per round.
-- Players select cards from their hand to form poker hands and score points.
-- Discards are available to improve hands by exchanging unwanted cards.
+- A run starts with **5 plays**, **5 discards**, **8 cards in hand**, **1 active special slot**, and **1 reroll**.
+- Each scoring play is a poker hand worth **Points x Multi**.
+- The round target scales upward over the course of the run.
+- After most progression nodes, you visit a shop to strengthen your deck and economy.
 
 ## Game End Conditions
 
 - The game ends if the player fails to meet the point target before running out of hands.
-- Final scores are recorded on a leaderboard.
+- Successful runs contribute toward seasonal progression, missions, and leaderboard performance.
 
-## Effect items
+## Core Gameplay Loop
 
-- **Modifier Cards**:
-  - Modifier cards will go to the deck with the rest of traditional cards.
-  - Modifier cards, once in hand, can be dragged and dropped to a preselected traditional card to apply the effect.
-  - Players can "change" a modifier card to draw a new card without loosing discards.
-- **Special Cards**:
-  - Special cards will activate immediately upon purchase, taking up a special card slot.
-  - Players can remove a special card at any time to free up a slot.
-  - To activate more special cards, players will need to unlock new special card slots in the store. (Max. is 7)
-- **Power-ups**:
-  - Used to increase points or multi that will be added to the hand score when used.
+1. Draw a hand and assemble the best scoring play available.
+2. Use discards to improve your odds or pivot into a different hand.
+3. Apply modifiers, jokers, neon cards, specials, and power-ups to push your score higher.
+4. Clear the node and collect cash rewards.
+5. Spend that cash in shops to improve consistency, scaling, and survivability.
 
-## Rage rounds
+## Effect Items
 
-Rage rounds are special encounters where players must overcome unique challenges presented by Rage cards. These cards apply negative effects and are active for one round only.
-Each map includes between 2 and 5 rage rounds, with one always appearing at the end of each level. The remaining rage rounds are distributed as intermediate challenges. Every rage round is tied to a Rage node with an associated power level, which increases as the player progresses. Higher-level rage nodes result in more powerful Rage cards.
+- **Modifier Cards**
+  - Added to the deck and drawn alongside traditional and neon cards.
+  - Change a card's suit or type behavior.
+- **Special Cards**
+  - Activate immediately when acquired.
+  - Occupy a special slot until sold or removed.
+  - Scale a run through persistent effects on scoring, economy, draws, discards, or round rules.
+- **Power-ups**
+  - Single-use boosts that add direct points or multiplier to a scoring play.
 
-## Progression and Rewards
+## Node Types
 
-The game features a dynamic map-based progression system. Each map is randomly generated and made up of different types of nodes. Players begin at the starting node and must navigate their way toward the final node.
+- **Round Nodes** are standard scoring encounters.
+- **Store Nodes** are economy and upgrade checkpoints.
+- **Rage Nodes** add one or more temporary debuffs for that round.
 
-### Node Types
+## What To Read Next
 
-- Normal Rounds: Standard gameplay rounds.
-- Store Nodes: Give access to the shop, where players can spend their earnings to:
-  - Level up their plays.
-  - Purchase new special cards, modifier cards, traditional cards, and neon cards.
-  - Unlock additional slots for special cards.
-  - Buy power-ups.
-  - Buy loot boxes with random rewards.
-  - Burn unwanted cards from their deck.
-- Rage Rounds: Special challenge rounds featuring Rage cards that apply temporary negative effects.
-
-Each map introduces strategic choices as players choose their path through the available nodes. The layout and distribution of store and rage nodes vary per map. Progressing through a map and reaching its final node completes the current level, triggering the generation of a new map for the next one.
+- [How Scoring Works](/game-mechanics/how-scoring-works)
+- [Rounds and Map Flow](/game-mechanics/rounds-and-map)
+- [Meta Progression](/game-mechanics/meta-progression)
+- [Leaderboards and Tournament](/game-mechanics/leaderboards-and-tournament)

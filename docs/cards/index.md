@@ -1,22 +1,36 @@
 # Cards
 
-## Deck
-Players start with a traditional deck of 52 cards with cards of 13 ranks and 4 suits, clubs, diamonds, hearts and spades + 2 regular jokers. As they win rounds, they can enhance their deck through the shop by purchasing common and modifier cards. This allows players to choose the type of deck they want to build according to their strategy.
+Jokers of Neon uses several card families that interact during a run in different ways.
 
-## Types of Cards:
+## Card Families
 
-* Traditional cards: used to form classic poker plays (pair, flush, straight, etc.)
-* Neon cards: are variants of traditional cards that score double points and +1 multi. Also, when a play is formed only with neon cards, the play level is increased by 4, scoring more points and multi.
-* Modifier cards: which can be applied to traditional cards individually to achieve different effects, like changing suit or transforming the card into a different one.
-* Special cards: which apply global effects that can affect specific cards or the game itself. There are two types:
-    * Permanent
-    * Temporary: self-destruct after 3 rounds
-* Jokers: wildcard that will be used to complete the best possible hand.
+- **Traditional cards**
+  - Include the 52 standard suited cards, Joker (`52`), and Wildcard (`53`)
+- **Neon cards**
+  - Neon versions of traditional cards, plus Neon Joker and Neon Wildcard
+- **Modifier cards**
+  - Change suit or card type behavior
+- **Power-ups**
+  - Single-use point or multiplier boosts
+- **Special cards**
+  - Persistent run-defining effects
+- **Rage cards**
+  - Temporary debuffs attached to rage rounds
+- **Loot boxes**
+  - Randomized rewards sold in shops
 
+## Card Scoring Notes
+
+- Traditional cards follow face value: `2-10`, `J/Q/K = 10`, `A = 11`
+- Joker substitutes any traditional card and adds `+100 points` and `+1 multi`
+- Neon Joker substitutes any traditional card and adds `+200 points` and `+2 multi`
+- Wildcard substitutes any traditional card
+- Wildcard of Neon substitutes any neon card
+- Neon traditional cards are upgraded variants that add higher points and generally `+1 multi`
 
 ## Jokers
-​
-| NAME             | IMAGE | DESCRIPTION                                           | 
-|------------------|------------|-------------------------------------------------------|
-|  Joker           |![](./img/joker.png)            | Adds 100 points and 1 multi       |
-|  Neon Joker      |![](./img/neon_joker.png)       | Adds 200 points and 2 multi       |
+
+| NAME        | IMAGE                    | DESCRIPTION                             |
+| ----------- | ------------------------ | --------------------------------------- |
+| Joker       | ![](./img/joker.png)     | Substitutes any traditional card. Adds 100 points and 1 multi. |
+| Neon Joker  | ![](./img/neon_joker.png) | Substitutes any traditional card. Adds 200 points and 2 multi. |

@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Jokers of Neon Docs',
+  tagline: 'Official documentation for Jokers of Neon',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'caravana-studio',
+  projectName: 'jokers-of-neon-docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -42,10 +42,8 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/caravana-studio/jokers-of-neon-docs/tree/main/',
         },
         blog: false,
         theme: {
@@ -63,7 +61,7 @@ const config = {
       navbar: {
         title: 'Jokers Of Neon',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Jokers of Neon Logo',
           src: 'img/logos/joker-logo.png',
         },
         items: [
@@ -115,7 +113,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CARAVANA Studio. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

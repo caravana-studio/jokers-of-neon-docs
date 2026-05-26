@@ -4,16 +4,16 @@ sidebar_position: 2
 
 # Key Features
 
-* Free-to-Play: Players can enjoy the game without any initial cost, making it accessible to a wide audience.
+- Branching roguelike runs: every run combines round nodes, shops, and rage encounters into a pathing puzzle where deck quality and route choices both matter.
 
-* Mobile first: The game is designed to be played seamlessly on mobile devices as well as desktops, ensuring a consistent and user-friendly experience across all platforms.
+- Poker-driven scoring: hands have base points, multiplier, and level growth, then get amplified by card values, neon upgrades, jokers, specials, power-ups, and rage constraints.
 
-* Global tournaments, where top players can get rewarded, with weekly leaderboards and special events.
+- Seasonal meta progression: seasons run on an XP track with free and premium rewards, daily missions, season rewards, and tournament entries.
 
-* Modding: Jokers of Neon will provide a community-driven platform where players will be able to build mods and create businesses on top of their contributions.
+- Competitive ladders: players can compete on daily, weekly, and season score leaderboards, as well as the season XP leaderboard and end-of-season tournament.
 
-* Accessibility for Non-Crypto Users: We aim to provide a user experience similar to traditional web2 applications by utilizing Cartridge Controller. This allows players to engage with the game without needing prior knowledge of blockchain technology.
+- Card collection depth: the game includes traditional cards, neon cards, modifiers, specials, power-ups, loot boxes, seasonal collections, and skins.
 
-* Regular Updates and Special Events: Special themed events and regular content updates keep the game fresh and exciting, providing new challenges and opportunities for players to explore.
+- Mobile-first accessibility: the game is designed to be playable on mobile and desktop, while keeping onboarding approachable for players who are new to on-chain games.
 
 ![](./img/cartas.png)

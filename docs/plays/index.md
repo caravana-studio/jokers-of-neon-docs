@@ -1,8 +1,11 @@
 # Plays
 
-Poker Hands are sets of between one and five cards that can be played to obtain Points and Multi for scoring. Each hand also has a level that affects its potency.
+Poker Hands are the base scoring patterns of Jokers of Neon. Every hand has:
 
-In a game, all Hands start at Level 1 and are improved through the shop.
+- A base point value
+- A base multiplier
+- A category tier
+- A level that can be increased during a run
 
 | CATEGORY | NAME            | POINTS | MULTI | DESCRIPTION                                                                     |
 | -------- | --------------- | ------ | ----- | ------------------------------------------------------------------------------- |
@@ -18,7 +21,9 @@ In a game, all Hands start at Level 1 and are improved through the shop.
 | C        | Pair            | 10     | 2     | Two cards of the same rank.                                                     |
 | C        | High Card       | 5      | 1     | The highest single card when no other hand is made.                             |
 
-Each level up adds:
+## Level Growth by Category
+
+Hands scale by category, not by individual hand:
 
 | CATEGORY | POINTS | MULTI |
 | -------- | ------ | ----- |
@@ -27,3 +32,5 @@ Each level up adds:
 | A        | 25     | 2     |
 | B        | 20     | 1     |
 | C        | 10     | 1     |
+
+All hands start at **Level 1** unless a special card, shop upgrade, or run effect changes them.

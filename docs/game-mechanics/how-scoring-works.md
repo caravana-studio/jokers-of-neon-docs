@@ -1,20 +1,69 @@
 # How Scoring Works
 
-Each play has points, multi and a level. Total points are calculated by multiplying points by multi. When the level of a particular play is increased (from the store), its points and multipliers increase.
+Every scoring hand has three parts:
 
-All traditional cards played in the hand are added to the points, according to their value (2 adds 2 points; 5 adds 5 points; ace adds 11 points; jack, queen, and king add 10 points; and the jokers add 100 points).
+- A **base hand value**
+- A **base multiplier**
+- A **hand level**
 
-The multiplier is only altered by modifiers and special cards, as appropriate.
+Your final score is:
 
-For instance,
+`(Base hand points + card points + bonus points) x (Base hand multi + bonus multi)`
 
-Two pair hand of level 1 (points: 50, multiplier: 2)
+## Base Card Values
 
-* Two of hearts (+2 points)
-* Modifier (+1 multiplier)
-* Two of diamonds (+2 points)
-* Ace of spades (+11 points)
-* Ace of diamonds (+11 points)
-* Special card +1 multiplier for each diamond card (+2 multiplier)
+- Number cards score their face value.
+- Jack, Queen, and King score `10`.
+- Ace scores `11`.
+- Joker scores `+100 points` and `+1 multi`.
+- Neon Joker scores `+200 points` and `+2 multi`.
+- Neon traditional cards score the upgraded point value shown on the card and usually add `+1 multi`.
 
-Total = (50 + 2 + 2 + 11 + 11) points x (2 + 1 + 2) multiplier = 76 points x 5 multiplier = 380 points
+## Hand Base Values
+
+See [Plays](/plays/) for the full table, but for example:
+
+- Pair starts at `10 points` and `+2 multi`
+- Two Pair starts at `20 points` and `+3 multi`
+- Royal Flush starts at `120 points` and `+9 multi`
+
+## Level Growth
+
+Each hand belongs to a category tier:
+
+- `SS`: +35 points, +3 multi per level
+- `S`: +30 points, +2 multi per level
+- `A`: +25 points, +2 multi per level
+- `B`: +20 points, +1 multi per level
+- `C`: +10 points, +1 multi per level
+
+## Worked Example
+
+Imagine a **Level 1 Two Pair** with:
+
+- 2 of Hearts
+- 2 of Diamonds
+- Ace of Spades
+- Ace of Diamonds
+- An active **Multiplied Diamonds** special
+
+Calculation:
+
+- Base hand: `20 points`, `+3 multi`
+- Card points: `2 + 2 + 11 + 11 = 26`
+- Bonus multi from Multiplied Diamonds: `+4` because two Diamonds scored
+
+Final score:
+
+`(20 + 26) x (3 + 4) = 46 x 7 = 322`
+
+## What Changes a Score
+
+The final result can be pushed higher or lower by:
+
+- Neon conversions
+- Jokers and wildcards
+- Special cards
+- Power-ups
+- Rage effects
+- Hand level upgrades from the shop or specials
